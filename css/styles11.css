@@ -1,0 +1,129 @@
+html {
+    font: normal normal 400 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*Created a multiple element list selector for h1 and h2 to set font varibles*/
+h1, h2 {
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(18, 83, 33);
+}
+
+
+
+/*Created a ruleset to set the font size of q element*/
+q {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+/*Created a ruleset using class element sections nested in the main to center and added padding to it.*/
+.main-section{
+    text-align: center; 
+    padding: 32px;
+    background-color: hsla(196, 76%, 18%, 0.882);
+}
+
+/*Created a ruleset to set the font size of footer p element*/
+footer p {
+    font-size: 0.8em; 
+}
+
+/*Created a ruleset for body element*/
+body {
+    width: 100%; 
+    max-width: 1500px; 
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/*Created a ruleset for image elements elements*/
+image{
+    width: 50%; 
+    height: auto;
+    /*border-radius: 0.5rem;*/
+}
+
+/*Added to the rulest for the figure elemet*/
+figure{
+    padding: 16px; /* Adds padding to all sides of each figure */
+    margin: 32px auto; /* Adds margin to the top and bottom, and sets left and right margins to auto for centering */
+}
+
+/*Created a ruleset for main section figure elements*/
+.main-section-figure{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 32px;
+    padding: 16px; /*added padding to it*/
+    border-radius: 0.5rem; /*It rounds the border*/ 
+}
+
+
+/*Adjusted the height and width of the absoulute-path-image*/
+#absolute-path-image img {
+    width: 30%; 
+    height: auto;
+    align-content: center;
+    padding: 16px;
+    border: 0.2rem solid rgb(5, 5, 5);
+    border-radius: 0.5rem;
+    background-color: hsla(0, 88%, 10%, 0.5);
+}
+
+/*Adjusted the height and width of the relative-path-image*/
+#relative-path-image img {
+    width: 60%; 
+    height: auto;
+    align-content: center;
+    padding: 16px;
+    border: 0.2rem solid rgb(131, 79, 2);
+    border-radius: 0.5rem;
+    background-color: hsla(139, 51%, 44%, 0.916);
+}
+
+/*Created a ruleset to set the font size of figcaption element*/
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 1.2em;
+}
+#relative-path-image figcaption{
+    color: rgb(21, 2, 131);
+}
+
+#absolute-path-image figcaption{
+    color: rgb(0, 0, 0);
+}
+
+/*Created a ruleset for iframe elements*/
+section iframe{
+    width: 80%;
+    height: 700px;
+    padding: 16px; /*Adds padding to all sides*/
+    border: 0.2rem solid rgb(76, 34, 245);
+    border-radius: 0.5rem;/*round the corners*/
+    border: 0.2rem solid rgb(1, 82, 12);
+}
+
+/*Aligning the header and footer to be in center using a multiple list element selector*/
+header, footer{
+    text-align: center;
+    border: 2px solid #080808;
+    background: linear-gradient(to right, orange, white, green);
+}
+
+/*Added a ruleset for biography blockquote to align the text to left*/
+#bio{
+    text-align: left;
+    
+}
+
+/*Created a ruleset for the blockquote with the q element to add padding to all sides*/
+#quote{
+    padding: 16px;
+    box-shadow: 10px 10px 20px green, -10px 10px 15px orange, -10px -10px 15px orange;    
+}
